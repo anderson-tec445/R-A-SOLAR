@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia Solar - Economize na Sua Conta de Luz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Reduza sua Conta de Luz com Energia Solar!</h1>
+        <p>Economize até 95% e tenha energia limpa e sustentável na sua casa ou empresa.</p>
+        <a href="#formulario" class="btn">Solicite um Orçamento</a>
+    </header>
+    
+    <section class="benefits">
+        <h2>Por que investir em Energia Solar?</h2>
+        <ul>
+            <li>✅ Redução de custos na conta de luz.</li>
+            <li>✅ Sustentabilidade e energia renovável.</li>
+            <li>✅ Valorização do imóvel.</li>
+            <li>✅ Instalação rápida e financiamento facilitado.</li>
+        </ul>
+    </section>
+    
+    <section id="formulario" class="contact">
+        <h2>Solicite um Orçamento</h2>
+        <form id="contact-form">
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="tel" id="telefone" placeholder="WhatsApp" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem"></p>
+    </section>
+    
+    <a href="https://wa.me/+551799115-3531" class="whatsapp-button" target="_blank">Fale Conosco no WhatsApp</a>
+    
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('mensagem').innerText = 'Orçamento enviado com sucesso! Entraremos em contato em breve.';
+        });
+    </script>
+</body>
+</html>

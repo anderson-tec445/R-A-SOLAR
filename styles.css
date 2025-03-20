@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #6bac469f;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.btn {
+    background: #00ffc831;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.benefits {
+    background: white;
+    padding: 30px 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact {
+    background: #6bac469f;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    background: #91ff008e;
+    color: white;
+    cursor: pointer;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
