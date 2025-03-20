@@ -1,5 +1,5 @@
 body {
-   font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: url('imagem/ra.jpeg') no-repeat center center fixed;
@@ -9,14 +9,14 @@ body {
 }
 
 header {
-    background: #6bac469f;
+    background: rgba(255, 204, 0, 0.9);
     padding: 40px 20px;
     color: #333;
 }
 
 .btn {
-    background: #00ffc831;
-    color: rgb(255, 255, 255);
+    background: #ff6600;
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -25,7 +25,7 @@ header {
 }
 
 .benefits {
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     padding: 30px 20px;
     margin: 20px;
     border-radius: 10px;
@@ -42,7 +42,7 @@ header {
 }
 
 .contact {
-    background: #6bac469f;
+    background: rgba(255, 204, 0, 0.9);
     padding: 40px 20px;
     border-radius: 10px;
     margin: 20px;
@@ -58,7 +58,7 @@ input, button {
 }
 
 button {
-    background: #91ff008e;
+    background: #ff6600;
     color: white;
     cursor: pointer;
 }
